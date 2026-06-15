@@ -49,6 +49,27 @@ const Projects = () => {
       icon: "fas fa-dumbbell",
       gradient: "linear-gradient(135deg, #10b981 0%, #06b6d4 100%)",
     },
+    {
+      title: "FinGenie AI",
+      subtitle: "Goal-Based Personal Finance Copilot",
+      description: [
+        "Built an AI-powered personal finance platform using the MERN stack that tracks expenses, analyzes spending patterns, and provides personalized budgeting recommendations through interactive dashboards.",
+        "Developed a goal forecasting engine leveraging LLM APIs to predict financial goal achievement timelines and generate actionable insights, helping users optimize spending and reach savings targets faster.",
+      ],
+      techStack: [
+        "React.js",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "LLM APIs",
+        "REST APIs",
+        "JWT",
+        "Chart.js",
+      ],
+      liveLink: "https://fin-ginie-8mpb.vercel.app",
+      icon: "fas fa-wallet",
+      gradient: "linear-gradient(135deg, #f59e0b 0%, #ef4444 100%)",
+    },
   ];
 
   return (
